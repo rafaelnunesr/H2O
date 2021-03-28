@@ -8,6 +8,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let controller = MainController()
 
     let settings: UIButton = UIButton()
     let cupButton: UIButton = UIButton()

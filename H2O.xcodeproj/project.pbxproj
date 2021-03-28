@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B5368EA2610C2CD00BAC297 /* MainControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5368E92610C2CD00BAC297 /* MainControllerTests.swift */; };
+		1B8402C92610C1EC007FE89B /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8402C82610C1EC007FE89B /* MainController.swift */; };
+		1B8402CA2610C1EC007FE89B /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8402C82610C1EC007FE89B /* MainController.swift */; };
 		1BAF5EE4260BDA770001B60B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAF5EE3260BDA770001B60B /* AppDelegate.swift */; };
 		1BAF5EE6260BDA770001B60B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAF5EE5260BDA770001B60B /* SceneDelegate.swift */; };
 		1BAF5EE8260BDA770001B60B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAF5EE7260BDA770001B60B /* ViewController.swift */; };
@@ -36,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B5368E92610C2CD00BAC297 /* MainControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainControllerTests.swift; sourceTree = "<group>"; };
+		1B8402C82610C1EC007FE89B /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		1BAF5EE0260BDA770001B60B /* H2O.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = H2O.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BAF5EE3260BDA770001B60B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BAF5EE5260BDA770001B60B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +114,7 @@
 				1BAF5EF1260BDA7A0001B60B /* LaunchScreen.storyboard */,
 				1BAF5EF4260BDA7A0001B60B /* Info.plist */,
 				1BAF5EEC260BDA770001B60B /* H2O.xcdatamodeld */,
+				1B8402C82610C1EC007FE89B /* MainController.swift */,
 			);
 			path = H2O;
 			sourceTree = "<group>";
@@ -118,6 +124,7 @@
 			children = (
 				1BAF5EFD260BDA7B0001B60B /* H2OTests.swift */,
 				1BAF5EFF260BDA7B0001B60B /* Info.plist */,
+				1B5368E92610C2CD00BAC297 /* MainControllerTests.swift */,
 			);
 			path = H2OTests;
 			sourceTree = "<group>";
@@ -265,6 +272,7 @@
 				1BAF5EEE260BDA770001B60B /* H2O.xcdatamodeld in Sources */,
 				1BAF5EE4260BDA770001B60B /* AppDelegate.swift in Sources */,
 				1BAF5EE6260BDA770001B60B /* SceneDelegate.swift in Sources */,
+				1B8402C92610C1EC007FE89B /* MainController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8402CA2610C1EC007FE89B /* MainController.swift in Sources */,
 				1BAF5EFE260BDA7B0001B60B /* H2OTests.swift in Sources */,
+				1B5368EA2610C2CD00BAC297 /* MainControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
